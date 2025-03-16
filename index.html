@@ -32,6 +32,19 @@
         }
         .article-content { font-size: 1.1rem; line-height: 1.8; color: #333; }
         .article-content p { margin-bottom: 1.5rem; }
+
+        .article-figure {
+            margin: 2rem auto;
+            text-align: center;
+            max-width: 500px;
+        }
+
+        .image-caption {
+            margin-top: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
         
         /* Footer */
         footer { background: #1a4b8c; color: white; padding: 2rem 0; margin-top: 2rem; }
@@ -82,7 +95,7 @@
                 <h1 class="article-title">"병원 의사·간호사, 불법 약물 제조·유통… 부작용 피해 속출"</h1>
                 <div class="article-meta">
                     <div class="reporter-info">
-                        <img src="images/reporter.JPG" alt="조성민 기자" class="reporter-image">
+                        <img src="images/reporter.jpg" alt="조성민 기자" class="reporter-image">
                         <div>
                             <span>작성자: 조성민</span>
                             <time>2025년 2월 25일 10:30</time>
@@ -91,7 +104,10 @@
                 </div>
             </div>
             
-            <img src="images/your-image.jpg" alt="기사 대표 이미지" class="article-image">
+            <figure class="article-figure">
+                <img src="images/your-image.jpg" alt="기사 대표 이미지" class="article-image">
+                <figcaption class="image-caption">지난 8일 경찰이 압수한 불법 제조 약물. 사진=하이어뉴스</figcaption>
+            </figure>
             
             <div class="article-content">
                 <p>불법 약물을 제조·유통한 혐의로 검거된 2인조 일당이 한국대병원 소속 의사와 간호사인 것으로 드러나 충격을 주고 있다.</p>
